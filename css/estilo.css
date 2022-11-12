@@ -1,0 +1,163 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+
+}
+
+body{
+	background: #000000;
+	font-family: Helvetica,Arial,sans-serif,Roboto;
+	overflow-x: hidden;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/*nav{
+	border-bottom: 5px solid #ffc107;
+}*/
+#logo img{
+	width: 400px;
+	height: auto;
+}
+
+.text-warning {
+    color: white!important;
+    background: #000000;
+}
+
+.text-warning:hover {
+    color: #ffc107!important;
+    border-bottom: 1px solid #ffc107;
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.text-warning:hover {
+    	color: #ffc107!important;
+    	border-bottom: none;
+	}
+	.dropdown-menu a{	
+	    font-size: #ffc107;
+	    border-bottom: 1px solid #ffc107;
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.text-warning:hover {
+    	color: #ffc107!important;
+    	border-bottom: none;
+	}
+	.dropdown-menu a{	
+	    font-size: #ffc107;
+	    border-bottom: 1px solid #ffc107;
+    }
+
+    #cabelo{
+    	display: block;
+    }
+}
+
+/*menu*/
+.dropdown-toggle::after{
+	content: none;
+}
+
+.navbar-nav .nav-link {
+	padding-right: 52px;
+	padding-left: 50px;
+}
+
+.dropdown-menu{
+	background: #000000;
+	opacity: 0.6;
+}
+.dropdown-menu a{	
+	font-size: #ffc107;
+}
+/*fim menu*/
+
+/*seção home unha*/
+#unha {
+	background: #ffc107;
+}
+
+#unha h1{
+   	font-size: 3em;
+    font-family: "Cataish";
+    color: #000000;
+}
+
+#unha p {
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+
+/*seção cabelo*/
+
+#cabelo p, #peruca p, #capilar p, #tratamento p{
+	color: #ffc107;
+	font-size: 1.3em;
+}
+#cabelo ul li, #tratamento ul li, #capilar ul li, #unha ul li{
+	list-style: none;
+}
+
+/* seção unha*/
+
+/* zoom na imagem*/
+.zoom {
+	overflow: hidden;
+}
+
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.zoom a {
+	text-decoration: none;
+}
+
+#cabelo a, #unha a{
+	text-decoration: none;
+}
+#unha .text-item p{
+	position: absolute;
+	left: 10%;
+	right: 5%;
+	bottom: 20px;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #ffffff;
+	text-align: center;
+	font-weight: 800;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+/* fim seção unha*/
+
+/* seção rodapé*/
+footer {
+	padding: 50px 0px;
+}
+
+footer p {
+	font-size: 14px;
+	margin:0px 0px 15px ;
+	color: white;
+}
+footer aside p strong{
+	font-weight: 700;
+}

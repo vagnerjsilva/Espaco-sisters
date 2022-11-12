@@ -1,2 +1,2 @@
-# Espaco-sisters
- Site de salão de beleza
+Primeiro projeto : Salão de beleza
+Site criado durante meus aprendizados 
