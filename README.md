@@ -1,6 +1,5 @@
 Primeiro projeto : 
-Salão de beleza.
+#Salão Espaço Sister´s
 
 Site sendo criado durante meus aprendizados.
 
-Aprendendo a utilizar o git e github.
