@@ -1,6 +1,5 @@
 
 # Salão Espaço Sister´s
 ----
-
-Site sendo criado durante meus aprendizados.
+Este é o meu primeiro projeto, foi sendo criado durante meus aprendizados.
 
